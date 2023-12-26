@@ -70,7 +70,7 @@
   padding: 5px 10px;
   font-size: 14px;
   line-height: 22px;
-  color: #777;
+  color: #03112c;
   background-color: #fff;
   background-image: none;
   text-align: center;
@@ -210,7 +210,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   position: absolute;
-  color: #777;
+  color: #03112c;
 }
 .dropify-wrapper .dropify-preview .dropify-render .dropify-extension {
   position: absolute;
@@ -379,7 +379,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  color: #777;
+  color: #03112c;
   text-align: left;
   line-height: 25px;
 }
@@ -411,7 +411,7 @@
   bottom: 23px;
   opacity: 1;
   border-color: rgba(119, 119, 119, 0.7);
-  color: #777;
+  color: #03112c;
 }
 .dropify-wrapper.touch-fallback:hover
   .dropify-preview
@@ -435,9 +435,9 @@
   animation: rotate 0.6s linear infinite;
   border-radius: 100%;
   border-top: 1px solid #ccc;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #03112c;
   border-left: 1px solid #ccc;
-  border-right: 1px solid #777;
+  border-right: 1px solid #03112c;
   content: "";
 }
 .dropify-wrapper .dropify-errors-container {

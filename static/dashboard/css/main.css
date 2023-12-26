@@ -2155,7 +2155,7 @@ body {
   background-color: #f4f7f9;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #5a5a5a;
+  color: #0b061d;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -2477,7 +2477,7 @@ ul.choose-skin li div,
   background-color: #f5f5f5;
 }
 .nav.nav-tabs-new > li > a {
-  color: #777;
+  color: #03112c;
   border: 1px solid #eee;
   border-radius: 0.25rem;
   padding: 5px 15px;
@@ -2500,7 +2500,7 @@ ul.choose-skin li div,
   border-bottom: 1px solid #eee;
 }
 .nav.nav-tabs-new2 > li > a {
-  color: #777;
+  color: #03112c;
   padding: 7px 20px;
   background-color: transparent;
   border-bottom: transparent;
@@ -2696,7 +2696,7 @@ html.fullscreen-bg #wrapper {
   display: block !important;
 }
 .card .header .header-dropdown li .dropdown-menu li a {
-  color: #777;
+  color: #03112c;
   padding: 10px;
   white-space: nowrap;
 }
@@ -2714,7 +2714,7 @@ html.fullscreen-bg #wrapper {
 }
 .card .header h2 small a {
   font-weight: 700;
-  color: #777;
+  color: #03112c;
 }
 .card .p-15 {
   padding: 15px !important;
@@ -3176,7 +3176,7 @@ html.fullscreen-bg #wrapper {
   outline-width: 0;
 }
 .sidebar-nav .metismenu ul a {
-  color: #777;
+  color: #03112c;
   font-size: 14px;
   padding: 10px 15px 10px 47px;
   position: relative;
@@ -4275,7 +4275,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 .blockquote {
   border-left: none;
-  border: 1px solid #777;
+  border: 1px solid #03112c;
   padding: 20px;
   font-size: 1.2em;
   line-height: 1.8;
@@ -4315,7 +4315,7 @@ select.form-control:not([size]):not([multiple]) {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .btn-default {
-  color: #777;
+  color: #03112c;
   background-color: #fff;
   border-color: #eee;
   padding: 6px 18px;
@@ -4809,9 +4809,7 @@ select.form-control:not([size]):not([multiple]) {
 .scribd-color {
   color: #1a7bba !important;
 }
-.shopify-color {
-  color: #96bf48 !important;
-}
+
 .skype-color {
   color: #00aff0 !important;
 }
@@ -5299,13 +5297,7 @@ select.form-control:not([size]):not([multiple]) {
 .scribd-bg:focus {
   background-color: #176ca4 !important;
 }
-.shopify-bg {
-  background-color: #96bf48 !important;
-}
-.shopify-bg:hover,
-.shopify-bg:focus {
-  background-color: #89b03e !important;
-}
+
 .skype-bg {
   background-color: #00aff0 !important;
 }
@@ -7335,7 +7327,7 @@ ul.choose-skin li div,
   line-height: 2em;
 }
 .weather3 .bottom .forecast li.active {
-  color: #777;
+  color: #03112c;
 }
 .weather3 .bottom .forecast li .condition {
   float: right;
@@ -7769,10 +7761,10 @@ ul.choose-skin li div,
   padding-left: 10px;
 }
 .testimonial2.default .testimonial-section {
-  border-color: #777;
+  border-color: #03112c;
 }
 .testimonial2.default .testimonial-section::after {
-  border-top-color: #777;
+  border-top-color: #03112c;
 }
 .testimonial2.primary .testimonial-section {
   border-color: #00bcd2;
@@ -7815,10 +7807,10 @@ ul.choose-skin li div,
   padding-right: 10px;
 }
 .testimonial3.default .testimonial-section {
-  border-color: #777;
+  border-color: #03112c;
 }
 .testimonial3.default .testimonial-section::after {
-  border-top-color: #777;
+  border-top-color: #03112c;
 }
 .testimonial3.primary .testimonial-section {
   border-color: #00bcd2;
@@ -7841,7 +7833,7 @@ ul.choose-skin li div,
 .testimonial4 blockquote {
   background: #f7f7f7 none repeat scroll 0 0;
   border: medium none;
-  color: #777;
+  color: #03112c;
   line-height: 20px;
   padding: 15px;
   position: relative;
@@ -7898,7 +7890,7 @@ ul.choose-skin li div,
 .accordion.custom .card-body {
   font-size: 15px;
   line-height: 28px;
-  color: #777;
+  color: #03112c;
 }
 .morris-hover.morris-default-style {
   -webkit-border-radius: 0;
@@ -8134,7 +8126,7 @@ ul.choose-skin li div,
   overflow: hidden;
   width: calc(100% - 60px);
   font-size: 13px;
-  color: #777;
+  color: #03112c;
 }
 .timeline-item {
   padding: 3em 2em 2em;
@@ -8146,7 +8138,7 @@ ul.choose-skin li div,
   position: absolute;
   left: 2em;
   top: 1em;
-  color: #777;
+  color: #03112c;
 }
 .timeline-item:after {
   width: 15px;
@@ -8694,7 +8686,7 @@ ul.choose-skin li div,
   }
 }
 .pricing {
-  color: #777;
+  color: #03112c;
 }
 .pricing li {
   list-style: none;
@@ -8733,7 +8725,7 @@ ul.choose-skin li div,
   max-width: 100%;
 }
 .pricing2 .pricing-plan .pricing-header {
-  color: #777;
+  color: #03112c;
   font-weight: 600;
   letter-spacing: 1px;
 }

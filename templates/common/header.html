@@ -35,7 +35,7 @@
         <span class="date_year"></span>
       </div>
       <div class="header_news-ticker-wrap">
-        <div class="hnt_title">Tech Tips :</div>
+        <div class="hnt_title">Parent Tip :</div>
         <div class="header_news-ticker fl-wrap">
           <ul>
             <li>
@@ -136,23 +136,14 @@
           <ul>
             <li
               id="menu-item-55"
-              class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children"
-            >
+              class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children">
               <a href="{% url 'posts:home' %}" class="menu-home">Home</a>
             </li>
 
-            <li
-              id="menu-item-361"
-              class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"
-            >
-              <a href="#" class="menu-pages"
-                >Pages<i class="fas fa-caret-down"></i
-              ></a>
-              <ul class="sub-menu">
+
                 <li
                   id="menu-item-422"
-                  class="menu-item menu-item-type-post_type menu-item-object-page"
-                >
+                  class="menu-item menu-item-type-post_type menu-item-object-page">
                   <a href="{% url 'about'%}" class="menu-about">About Us</a>
                 </li>
                 <li
@@ -201,21 +192,16 @@
                   id="menu-item-362"
                   class="menu-item menu-item-type-taxonomy menu-item-object-category"
                 >
-                  <a href="#category">Categories</a>
+                  <a href="#category">Posts</a>
                 </li>
-                <li
-                  id="menu-item-363"
-                  class="menu-item menu-item-type-custom menu-item-object-custom"
-                >
-                  <a href="{% url 'terms-and-condition' %}">Terms of Use</a>
-                </li>
+                
                 <li
                   id="menu-item-364"
                   class="menu-item menu-item-type-custom menu-item-object-custom"
                 >
                   <a href="#subscribe">Subscribe</a>
                 </li>
-              </ul>
+             
 
               {% for nav_lin in nav_categories %}
             </li>

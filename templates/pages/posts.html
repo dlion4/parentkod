@@ -9,7 +9,7 @@
 <!--section   -->
 <section class="hero-section">
   <div class="bg-wrap hero-section_bg">
-    <div class="bg" data-bg="{% static 'images/bg/newspa.jpg' %}"></div>
+    <div class="bg" data-bg="{% static 'images/bg/mom.jpg' %}"></div>
   </div>
   <div class="container">
     <div class="hero-section_title">
@@ -17,7 +17,7 @@
     </div>
     <div class="clearfix"></div>
     <div class="breadcrumbs-list fl-wrap">
-      <span>Technikod </span><a href="{% url  'posts:home' %}">Home</a>
+      <span>Parentkod </span><a href="{% url  'posts:home' %}">Home</a>
       <span>Blog</span>
     </div>
     <div class="scroll-down-wrap scw_transparent">
@@ -33,9 +33,11 @@
 <section>
   <div class="container">
     <div class="row">
-      {% include "shared/posts/category_side.html" %} {% include
-      "shared/posts/posts_middle.html" %} {% include
-      "shared/posts/posts_right.html" %}
+      {% include "shared/posts/category_side.html" %}
+      <!---->
+      {% include "shared/posts/posts_middle.html" %}
+      <!---->
+      {% include "shared/posts/posts_right.html" %}
     </div>
     <div class="limit-box fl-wrap"></div>
   </div>
