@@ -41,7 +41,7 @@ class SubCategory(models.Model):
         Category, on_delete=models.CASCADE, related_name="sub_category"
     )
     name = models.CharField(max_length=100, unique=True)
-    slug = models.SlugField(max_length=100, blank=True, null=True)
+    slug = models.SlugField(max_length=180, blank=True, null=True)
     image = models.ImageField(upload_to="category/", blank=True, null=True)
     topics = models.IntegerField(default=0, blank=True, null=True)
 

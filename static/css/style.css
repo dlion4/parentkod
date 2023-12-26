@@ -989,7 +989,7 @@ blockquote:before {
   line-height: 10px;
   margin: -5px 0 0 -5px;
   z-index: 6;
-  font-weight: 900;
+  font-weight: 700;
   color: #fff;
   opacity: 0;
   font-size: 18px;
@@ -1166,7 +1166,7 @@ section {
 .section-title h2 {
   text-align: left;
   font-size: 25px;
-  font-weight: 900;
+  font-weight: 700;
   color: #3c3fde;
 }
 .section-title {
@@ -1199,7 +1199,7 @@ section {
   position: absolute;
   right: 20px;
   top: 30px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 16px;
 }
 .section-title h4 {
@@ -1793,7 +1793,7 @@ section {
   margin-bottom: 10px;
   padding-left: 20px;
   position: relative;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
 }
 .footer-list li:before {
@@ -3694,7 +3694,7 @@ section {
 }
 .pwic_opt li i {
   margin-right: 4px;
-  font-weight: 900;
+  font-weight: 700;
 }
 .pwic_opt li:first-child i {
   font-weight: 400;

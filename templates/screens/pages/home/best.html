@@ -51,7 +51,7 @@
               <div class="author-link">
                 <a href="{{ best_post.writer.get_absolute_url }}">
                   <img
-                    src="{% if best_post.writer.avatar %}{{ best_post.writer.avatar.url }}{% else %}{% static 'images/avatar/ceod.jpg' %}{% endif %}"
+                    src="{% if best_post.writer.avatar %}{{ best_post.writer.avatar.url }}{% else %}{% static 'images/avatar/pensive.jpg' %}{% endif %}"
                     alt=""
                   />
                   <span>By {{best_post.writer.username}}</span></a
@@ -129,7 +129,7 @@
                   <div class="author-link">
                     <a href="{{ post.writer.get_absolute_url }}">
                       <img
-                        src="{% if post.writer.avatar %}{{ post.writer.avatar.url }}{% else %}{% static 'images/avatar/ceod.jpg' %}{% endif %}"
+                        src="{% if post.writer.avatar %}{{ post.writer.avatar.url }}{% else %}{% static 'images/avatar/pensive.jpg' %}{% endif %}"
                         alt=""
                       />
                       <span>By {{post.writer.username}}</span></a

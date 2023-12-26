@@ -4,7 +4,7 @@
   <div class="navbar-brand">
     <a href="{% url 'posts:home' %}"
       ><img
-        src="{% static 'images/techlogo.png' %}"
+        src="{% static 'images/parentx.png' %}"
         alt="HexaBit Logo"
         class="img-fluid logo"
       /><span>Parentkod</span></a
@@ -20,7 +20,7 @@
     <div class="user-account">
       <div class="user_div">
         <img
-          src="{% if request.user.user_profile.avatar %}{{request.user.user_profile.avatar.url}}{% else %}{% static 'dashboard/images/user.png' %}{% endif %}"
+          src="{% if request.user.user_profile.avatar %}{{request.user.user_profile.avatar.url}}{% else %}{% static 'dashboard/images/pensive.jpg' %}{% endif %}"
           class="user-photo"
           alt="User Profile Picture"
         />
